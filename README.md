@@ -59,4 +59,5 @@ Using state patching, you'll receive the following result, which is what you ori
 tickets = {
   ...initialTicketsFromServer,
   newTicketId: { title: "some other ticket" },
+}
 ```
