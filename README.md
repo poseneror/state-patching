@@ -61,3 +61,6 @@ tickets = {
   newTicketId: { title: "some other ticket" },
 }
 ```
+
+## Limitations
+useStatePatching does not currently support states that have arrays in their root level. Any changes that are made to arrays are considered immuatble, a solution for that is to provide a "key" attribute to the array, but this is not fully supported yet.
